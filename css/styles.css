@@ -1,5 +1,12 @@
+.logo {
+  width: 110px;
+}
+
 .nav-elements {
   justify-content: flex-end;
   font-family: "Source Code Pro", monospace;
   font-size: x-large;
+}
+
+.navbar-toggler {
 }
