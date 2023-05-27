@@ -8,5 +8,11 @@
   font-size: x-large;
 }
 
-.navbar-toggler {
+.navbar-collapse {
+  text-align: right;
+}
+
+.section-header {
+  font-family: "Source Code Pro", monospace;
+  color: white;
 }
