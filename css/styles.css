@@ -1,3 +1,7 @@
+:root {
+  --logo-color: #5ce1e6;
+}
+
 .logo {
   width: 110px;
 }
@@ -12,7 +16,42 @@
   text-align: right;
 }
 
+.nav-link:hover {
+  color: var(--logo-color);
+}
+
+.nav-link:focus {
+  color: var(--logo-color);
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .section-header {
+  width: 100%;
+  margin-bottom: 45px;
+  text-align: center;
   font-family: "Source Code Pro", monospace;
-  color: white;
+  color: whitesmoke;
+}
+
+#portrait {
+  border-radius: 50%;
+  border: 4px solid var(--logo-color);
+  margin-bottom: 45px;
+}
+
+#about_p {
+  font-size: large;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#about_yourmom {
+  width: 40vw;
+  margin-left: 100px;
 }
