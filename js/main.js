@@ -3,7 +3,7 @@ let projects_section = document.querySelector("main section");
 
 let about_section = document.createElement("section");
 about_section.id = "about";
-about_section.className = "section";
+about_section.className = "container section";
 
 let about_h1 = document.createElement("h1");
 about_h1.textContent = `ABOUT ME`;
@@ -12,6 +12,7 @@ about_section.appendChild(about_h1);
 
 let about_portrait = document.createElement("img");
 about_portrait.id = "portrait";
+about_portrait.className = "mx-auto d-block";
 about_portrait.src = "img/alex.jpg";
 about_portrait.width = 300;
 about_portrait.height = 300;
