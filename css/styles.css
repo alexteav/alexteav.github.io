@@ -1,5 +1,7 @@
 :root {
   --logo-color: #5ce1e6;
+  --smokeygrey: #333436;
+  --button-highlight: #40999c;
 }
 
 .logo {
@@ -56,20 +58,33 @@
 }
 
 .card-custom {
-  background-color: #333436;
+  background-color: var(--smokeygrey);
   color: whitesmoke;
 }
 
+.card-custom:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+  color: var(--logo-color);
+}
+
 .btn-custom {
-  background-color: #333436;
+  background-color: var(--smokeygrey);
   border-color: rgba(255, 255, 255, 0.55);
 }
 
 .btn-custom:hover {
-  background-color: #40999c;
-  border-color: #40999c;
+  background-color: var(--button-highlight);
+  border-color: var(--button-highlight);
 }
 
+.skill-font {
+  font-size: large;
+}
+
+.form-label-custom {
+  color: whitesmoke;
+}
 /* #about_yourmom {  FOR RESPONSIVENESS
   width: 40vw;
   margin-left: 100px;
