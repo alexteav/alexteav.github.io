@@ -27,12 +27,6 @@
 }
 
 .section {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-left: 15px;
-  margin-right: 15px; */
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -53,8 +47,6 @@
 
 #about_p {
   font-size: large;
-  /* margin-left: 20px;
-  margin-right: 20px; */
 }
 
 .card-custom {
@@ -85,8 +77,3 @@
 .form-label-custom {
   color: whitesmoke;
 }
-/* #about_yourmom {  FOR RESPONSIVENESS
-  width: 40vw;
-  margin-left: 100px;
-}
-*/
